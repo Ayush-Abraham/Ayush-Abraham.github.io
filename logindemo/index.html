@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Login</title>
+    </head>
+    <body>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-5">Login to continue</h1>
+          <form id="signInForm" action="redirect.html" class="form-horizontal" data-bv-feedbackicons-valid="glyphicon glyphicon-ok" data-bv-feedbackicons-invalid="glyphicon glyphicon-remove" data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+            <div class="form-group">
+              <label class="col-sm-3 control-label">Email</label>
+              <div class="col-sm-4">
+                <input type="email" class="form-control" name="Email" placeholder="Email"
+                  required
+                  data-bv-notempty-message="The Email is required" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-3 control-label">Password</label>
+              <div class="col-sm-4">
+                <input type="password" class="form-control" name="password" placeholder="Password" required data-bv-notempty-message="The password is required" />
+              </div>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-6 col-sm-offset-3">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </div>
+            <a href="signup1.html">Don't have an account? Sign up here</a>
+          </form>
+        </div>
+      </div>
+    </body>
+</html>
